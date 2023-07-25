@@ -16,4 +16,5 @@ runs:
         echo "number is completely divisible"
        else 
         echo "it is not completely divisible" 
+       fi 
     shell: bash  
