@@ -12,7 +12,7 @@ runs:
     steps:
     - name: Dividing two values
       run: |
-            if [ $(( ${{inputs.first_number}} % ${{inputs.second_number}} )) -eq 0 && grep -E '^[0-9]+$']; 
+            if [ $(( ${{inputs.first_number}} % ${{inputs.second_number}} )) -eq 0 ] && [$((grep -E '^[0-9]+$')) ]; 
             then
              echo "number is completely divisible"
             else 
