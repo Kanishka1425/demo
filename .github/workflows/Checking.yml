@@ -5,10 +5,10 @@ on:
     inputs:
       first_number:
         required: true
-        type: string
+        type: number
       second_number:
         required: true
-        type: string  
+        type: number  
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
