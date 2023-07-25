@@ -12,20 +12,10 @@ runs:
     steps:
     - name: Dividing two values
       run: |
-          # Function to validate input (Check if it contains only digits)
-      function is_valid_input() {
-        echo "$1" | grep -E '^[0-9]+$'}
-
-
-      if is_valid_input "${inputs.first_number}" && is_valid_input "${inputs.second_number}"; then
-      if [ $(( ${inputs.first_number} % ${inputs.second_number} )) -eq 0 ]; then
-        echo "Number is completely divisible."
-      else
-        echo "It is not completely divisible."
-        fi
-      else
-        echo "Invalid input. Please provide valid numbers (digits only)."
-        fi
-
-            
+          if [ $(( ${{inputs.first_number}} % ${{inputs.second_number}} )) -eq 0 ]; 
+            then
+             echo "number is completely divisible"
+            else 
+             echo "it is not completely divisible" 
+            fi
       shell: bash  
