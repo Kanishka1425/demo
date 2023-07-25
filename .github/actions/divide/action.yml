@@ -1,0 +1,19 @@
+name: dividing two numbers 
+description: using mode operation
+inputs:
+      first_number:
+        required: true
+        type: number
+      second_number:
+        required: true
+        type: number  
+runs:
+    using: "composite"
+    steps:
+    - name: Dividing two values
+      run:
+       if [ "inputs.first_number % inputs.second_number" == "0" ]; then
+        echo "number is completely divisible"
+       else 
+        echo "it is not completely divisible" 
+    shell: bash  
