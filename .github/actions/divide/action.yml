@@ -17,7 +17,7 @@ runs:
         run: | 
               if [[ "${{ inputs.first_number }}" =~ ^[0-9]+$ && "${{ inputs.second_number }}" =~ ^[0-9]+$ ]];then
               if [[ "${{ inputs.second_number }}" != "0" ]]; then
-              if [[ ${{ inputs.first_number }} % ${{ inputs.second_number }} == 0 ]]; 
+              if [ $(( ${{ inputs.first_number }} % ${{ inputs.second_number }} )) -eq 0 ]]; 
               then
                echo "number is completely divisible"
               else 
