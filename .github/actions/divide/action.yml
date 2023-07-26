@@ -18,6 +18,8 @@ runs:
              echo "number is completely divisible"
             else 
              echo "it is not completely divisible" 
-            
+            fi
+            else
+             echo "please enter numeric value "
             fi
       shell: bash  
