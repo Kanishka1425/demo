@@ -22,5 +22,5 @@ runs:
             else
              echo "please enter numeric value "
             fi
-            else
+            
       shell: bash  
