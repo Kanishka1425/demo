@@ -27,7 +27,7 @@ runs:
                echo please add another number rather than zero
               fi
               else
-               echo "please enter numeric value "
+               echo "please enter integer value "
               fi
 
         shell: bash  
