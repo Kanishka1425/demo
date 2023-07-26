@@ -13,9 +13,6 @@ runs:
     - name: Dividing two values
       run: |
             if [[ "${{ inputs.first_number }}" =~ ^[0-9]+$ && "${{inputs.second_number}}" =~ ^[1-9]+$ ]];then
-            if [[${{inputs.second_number} -eq 0}]];
-            then
-             echo "this will result infinity"
             if [ $(( ${{inputs.first_number}} % ${{inputs.second_number}} )) -eq 0 ]; 
             then
              echo "number is completely divisible"
@@ -25,4 +22,5 @@ runs:
             else
              echo "please enter numeric value "
             fi
+            else
       shell: bash  
