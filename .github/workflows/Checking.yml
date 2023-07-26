@@ -1,4 +1,4 @@
-name: The mode operation
+name: The modulas operation
 
 on:
   workflow_dispatch:
