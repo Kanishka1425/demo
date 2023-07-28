@@ -17,6 +17,7 @@ runs:
         run: | 
               if [[ "${{ inputs.first_number }}" =~ ^[0-9]+$ && "${{ inputs.second_number }}" =~ ^[0-9]+$ ]];then
               if [[ "${{ inputs.second_number }}" != "0" ]]; then
+              if [[ "${{ inputs.first_number}}"=="0"]]; then
               if [[ $(( ${{ inputs.first_number }} % ${{ inputs.second_number }} )) -eq 0 ]]; 
               then
                echo "number is completely divisible"
@@ -24,10 +25,31 @@ runs:
                echo "it is not completely divisible" 
               fi
               else
-               echo please add another number rather than zero
+               echo  "please add another number rather than zero"
+              fi
+              else  "this will give zero as result"
               fi
               else
                echo "please enter positive integer value "
               fi
 
         shell: bash  
+#result=$(curl -s GET -- header "Accept:*/*" "https://api.github.com/users/{GH_USERNAME}") 
+ # echo $result
+
+ #curl -L \
+            #-H "Accept: application/vnd.github+json" \
+            #-H "Authorization: Bearer <YOUR-TOKEN>" \
+            #-H "X-GitHub-Api-Version: 2022-11-28" \
+            # https://api.github.com/users 
+
+ curl -L \
+   -H "Accept: application/vnd.github+json" \
+   -H "Authorization: Bearer ${{ env.pat_token }}" \
+   -H "X-GitHub-Api-Version: 2022-11-28" \
+   https://api.github.com/users{GH_USERNAME} 
+
+      curl --request GET \
+      --url "https://docs.github.com/rest/users/GH_USERNAME" \
+      --header "Accept: application/vnd.github+json" \
+      --header "Authorization: Bearer $GH_TOKEN"             
