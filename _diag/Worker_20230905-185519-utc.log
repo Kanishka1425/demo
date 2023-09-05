@@ -1,0 +1,1657 @@
+[2023-09-05 18:55:19Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2023-09-05 18:55:19Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:55:19Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:55:19Z INFO HostContext] Well known config file 'Credentials': 'C:\Data\demo\.credentials'
+[2023-09-05 18:55:20Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:55:20Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:55:20Z INFO HostContext] Well known config file 'Runner': 'C:\Data\demo\.runner'
+[2023-09-05 18:55:21Z INFO Worker] Version: 2.308.0
+[2023-09-05 18:55:21Z INFO Worker] Commit: 7f7ff150c6d2ee316c523be6325188853dfae45d
+[2023-09-05 18:55:21Z INFO Worker] Culture: en-US
+[2023-09-05 18:55:21Z INFO Worker] UI Culture: en-US
+[2023-09-05 18:55:21Z INFO Worker] Waiting to receive the job message from the channel.
+[2023-09-05 18:55:21Z INFO ProcessChannel] Receiving message of length 19671, with hash 'd675dc823b0a63880dd3d79f3f5f68fb99760ee0e915b88e742302ea6fe33194'
+[2023-09-05 18:55:21Z INFO Worker] Message received.
+[2023-09-05 18:55:21Z INFO Worker] Job message:
+ {
+  "fileTable": [
+    ".github/workflows/Checking.yml"
+  ],
+  "mask": [
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    }
+  ],
+  "steps": [
+    {
+      "type": "action",
+      "reference": {
+        "type": "repository",
+        "name": "Kanishka1425/Demo",
+        "ref": "main",
+        "repositoryType": "GitHub",
+        "path": ".github/actions/divide"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 26,
+        "col": 15,
+        "lit": "check it is completely divisble or not"
+      },
+      "contextName": "__Kanishka1425_Demo",
+      "inputs": {
+        "type": 2,
+        "file": 1,
+        "line": 29,
+        "col": 11,
+        "map": [
+          {
+            "key": {
+              "type": 0,
+              "file": 1,
+              "line": 29,
+              "col": 11,
+              "lit": "first_number"
+            },
+            "value": {
+              "type": 3,
+              "file": 1,
+              "line": 29,
+              "col": 25,
+              "expr": "github.event.inputs.first_number"
+            }
+          },
+          {
+            "key": {
+              "type": 0,
+              "file": 1,
+              "line": 30,
+              "col": 11,
+              "lit": "second_number"
+            },
+            "value": {
+              "type": 3,
+              "file": 1,
+              "line": 30,
+              "col": 26,
+              "expr": "github.event.inputs.second_number"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "30c5f498-de7f-5716-77fd-67d11cd7001d",
+      "name": "__Kanishka1425_Demo"
+    }
+  ],
+  "variables": {
+    "system.isScheduled": {
+      "value": "False"
+    },
+    "system.servertype": {
+      "value": "Hosted"
+    },
+    "system.culture": {
+      "value": ""
+    },
+    "system.pipelineStartTime": {
+      "value": "2023-09-05 18:55:14+00:00"
+    },
+    "system.runner.lowdiskspacethreshold": {
+      "value": "100"
+    },
+    "DistributedTask.NewActionMetadata": {
+      "value": "true"
+    },
+    "DistributedTask.EnableCompositeActions": {
+      "value": "true"
+    },
+    "DistributedTask.EnhancedAnnotations": {
+      "value": "true"
+    },
+    "DistributedTask.UploadStepSummary": {
+      "value": "true"
+    },
+    "DistributedTask.ForceGithubJavascriptActionsToNode16": {
+      "value": "true"
+    },
+    "DistributedTask.AddWarningToNode12Action": {
+      "value": "true"
+    },
+    "DistributedTask.LogTemplateErrorsAsDebugMessages": {
+      "value": "true"
+    },
+    "DistributedTask.AllowRunnerContainerHooks": {
+      "value": "true"
+    },
+    "DistributedTask.DeprecateStepOutputCommands": {
+      "value": "true"
+    },
+    "system.teamProjectId": {
+      "value": "00000000-0000-0000-0000-000000000000"
+    },
+    "build.buildId": {
+      "value": "123"
+    },
+    "build.containerId": {
+      "value": "7239346"
+    },
+    "system.workflowFilePath": {
+      "value": ".github/workflows/Checking.yml"
+    },
+    "system.phaseDisplayName": {
+      "value": "build"
+    },
+    "system.phaseId": {
+      "value": "6884a131-87da-5381-61f3-d7acc3b91d76"
+    },
+    "system.phaseName": {
+      "value": "build"
+    },
+    "system.phaseAttempt": {
+      "value": "1"
+    },
+    "system.jobIdentifier": {
+      "value": "build.__default"
+    },
+    "system.jobAttempt": {
+      "value": "1"
+    },
+    "System.JobPositionInPhase": {
+      "value": "1"
+    },
+    "System.TotalJobsInPhase": {
+      "value": "1"
+    },
+    "system.github.job": {
+      "value": "build"
+    },
+    "system.jobDisplayName": {
+      "value": "build"
+    },
+    "system.jobId": {
+      "value": "ca395085-040a-526b-2ce8-bdc85f692774"
+    },
+    "system.jobName": {
+      "value": "__default"
+    },
+    "system.github.token.permissions": {
+      "value": "{\"Contents\":\"read\",\"Metadata\":\"read\",\"Packages\":\"read\"}"
+    },
+    "system.github.token": {
+      "value": "***",
+      "isSecret": true
+    },
+    "system.runnerEnvironment": {
+      "value": "self-hosted"
+    },
+    "system.github.results_endpoint": {
+      "value": "https://actions-results-receiver-production.githubapp.com"
+    },
+    "system.orchestrationId": {
+      "value": "79307022-c6bc-4dd3-8868-cf827eec78e5.build.__default"
+    },
+    "system.runnerGroupName": {
+      "value": "Default"
+    }
+  },
+  "messageType": "PipelineAgentJobRequest",
+  "plan": {
+    "scopeIdentifier": "00000000-0000-0000-0000-000000000000",
+    "planType": "Actions",
+    "version": 33,
+    "planId": "79307022-c6bc-4dd3-8868-cf827eec78e5",
+    "planGroup": "Actions:00000000-0000-0000-0000-000000000000:1",
+    "artifactUri": "vstfs:///Build/Build/123",
+    "artifactLocation": null,
+    "definition": {
+      "_links": {},
+      "id": 3,
+      "name": "demo"
+    },
+    "owner": {
+      "_links": {},
+      "id": 3,
+      "name": "Kanishka1425"
+    }
+  },
+  "timeline": {
+    "id": "79307022-c6bc-4dd3-8868-cf827eec78e5",
+    "changeId": 0,
+    "location": null
+  },
+  "jobId": "ca395085-040a-526b-2ce8-bdc85f692774",
+  "jobDisplayName": "build",
+  "jobName": "__default",
+  "requestId": 123,
+  "lockedUntil": "0001-01-01T00:00:00",
+  "resources": {
+    "endpoints": [
+      {
+        "data": {
+          "ServerId": "899ea2e5-8582-4c27-8309-ba1d6f1d0785",
+          "ServerName": "1z6R8PTYVkAFJWRv5zSCddtVuwFQqcFGlxttQVRYFazaAZza9T",
+          "CacheServerUrl": "https://artifactcache.actions.githubusercontent.com/1z6R8PTYVkAFJWRv5zSCddtVuwFQqcFGlxttQVRYFazaAZza9T/",
+          "FeedStreamUrl": "https://pipelines.actions.githubusercontent.com/1z6R8PTYVkAFJWRv5zSCddtVuwFQqcFGlxttQVRYFazaAZza9T/00000000-0000-0000-0000-000000000000/_apis/distributedtask/hubs/Actions/plans/79307022-c6bc-4dd3-8868-cf827eec78e5/timelines/79307022-c6bc-4dd3-8868-cf827eec78e5/records/ca395085-040a-526b-2ce8-bdc85f692774/feedstream?api-version=6.0-preview",
+          "ConnectivityChecks": "[\"https://acghubeus0.actions.githubusercontent.com/_apis/health\",\"https://actions-results-receiver-production.githubapp.com/health\"]"
+        },
+        "name": "SystemVssConnection",
+        "url": "https://pipelines.actions.githubusercontent.com/1z6R8PTYVkAFJWRv5zSCddtVuwFQqcFGlxttQVRYFazaAZza9T/",
+        "authorization": {
+          "parameters": {
+            "AccessToken": ***
+          },
+          "scheme": "OAuth"
+        },
+        "isShared": false,
+        "isReady": true
+      }
+    ]
+  },
+  "contextData": {
+    "github": {
+      "t": 2,
+      "d": [
+        {
+          "k": "ref",
+          "v": "refs/heads/main"
+        },
+        {
+          "k": "sha",
+          "v": "af0c9e8ee8213bd9ece446db596b53abb5673f7a"
+        },
+        {
+          "k": "repository",
+          "v": "Kanishka1425/demo"
+        },
+        {
+          "k": "repository_owner",
+          "v": "Kanishka1425"
+        },
+        {
+          "k": "repository_owner_id",
+          "v": "139228547"
+        },
+        {
+          "k": "repositoryUrl",
+          "v": "git://github.com/Kanishka1425/demo.git"
+        },
+        {
+          "k": "run_id",
+          "v": "6088628408"
+        },
+        {
+          "k": "run_number",
+          "v": "112"
+        },
+        {
+          "k": "retention_days",
+          "v": "90"
+        },
+        {
+          "k": "run_attempt",
+          "v": "1"
+        },
+        {
+          "k": "artifact_cache_size_limit",
+          "v": "10"
+        },
+        {
+          "k": "repository_visibility",
+          "v": "public"
+        },
+        {
+          "k": "repo-self-hosted-runners-disabled",
+          "v": false
+        },
+        {
+          "k": "enterprise-managed-business-id",
+          "v": ""
+        },
+        {
+          "k": "repository_id",
+          "v": "670574146"
+        },
+        {
+          "k": "actor_id",
+          "v": "139228547"
+        },
+        {
+          "k": "actor",
+          "v": "Kanishka1425"
+        },
+        {
+          "k": "triggering_actor",
+          "v": "Kanishka1425"
+        },
+        {
+          "k": "workflow",
+          "v": "The modulas operation"
+        },
+        {
+          "k": "head_ref",
+          "v": ""
+        },
+        {
+          "k": "base_ref",
+          "v": ""
+        },
+        {
+          "k": "event_name",
+          "v": "workflow_dispatch"
+        },
+        {
+          "k": "event",
+          "v": {
+            "t": 2,
+            "d": [
+              {
+                "k": "inputs",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "first_number",
+                      "v": "10"
+                    },
+                    {
+                      "k": "second_number",
+                      "v": "5"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "ref",
+                "v": "refs/heads/main"
+              },
+              {
+                "k": "repository",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "allow_forking",
+                      "v": true
+                    },
+                    {
+                      "k": "archive_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/{archive_format}{/ref}"
+                    },
+                    {
+                      "k": "archived",
+                      "v": false
+                    },
+                    {
+                      "k": "assignees_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/assignees{/user}"
+                    },
+                    {
+                      "k": "blobs_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/git/blobs{/sha}"
+                    },
+                    {
+                      "k": "branches_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/branches{/branch}"
+                    },
+                    {
+                      "k": "clone_url",
+                      "v": "https://github.com/Kanishka1425/demo.git"
+                    },
+                    {
+                      "k": "collaborators_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/collaborators{/collaborator}"
+                    },
+                    {
+                      "k": "comments_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/comments{/number}"
+                    },
+                    {
+                      "k": "commits_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/commits{/sha}"
+                    },
+                    {
+                      "k": "compare_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/compare/{base}...{head}"
+                    },
+                    {
+                      "k": "contents_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/contents/{+path}"
+                    },
+                    {
+                      "k": "contributors_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/contributors"
+                    },
+                    {
+                      "k": "created_at",
+                      "v": "2023-07-25T11:01:48Z"
+                    },
+                    {
+                      "k": "default_branch",
+                      "v": "main"
+                    },
+                    {
+                      "k": "deployments_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/deployments"
+                    },
+                    {
+                      "k": "description",
+                      "v": null
+                    },
+                    {
+                      "k": "disabled",
+                      "v": false
+                    },
+                    {
+                      "k": "downloads_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/downloads"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/events"
+                    },
+                    {
+                      "k": "fork",
+                      "v": false
+                    },
+                    {
+                      "k": "forks",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/forks"
+                    },
+                    {
+                      "k": "full_name",
+                      "v": "Kanishka1425/demo"
+                    },
+                    {
+                      "k": "git_commits_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/git/commits{/sha}"
+                    },
+                    {
+                      "k": "git_refs_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/git/refs{/sha}"
+                    },
+                    {
+                      "k": "git_tags_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/git/tags{/sha}"
+                    },
+                    {
+                      "k": "git_url",
+                      "v": "git://github.com/Kanishka1425/demo.git"
+                    },
+                    {
+                      "k": "has_discussions",
+                      "v": false
+                    },
+                    {
+                      "k": "has_downloads",
+                      "v": true
+                    },
+                    {
+                      "k": "has_issues",
+                      "v": true
+                    },
+                    {
+                      "k": "has_pages",
+                      "v": false
+                    },
+                    {
+                      "k": "has_projects",
+                      "v": true
+                    },
+                    {
+                      "k": "has_wiki",
+                      "v": true
+                    },
+                    {
+                      "k": "homepage",
+                      "v": null
+                    },
+                    {
+                      "k": "hooks_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/hooks"
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/Kanishka1425/demo"
+                    },
+                    {
+                      "k": "id",
+                      "v": 670574146.0
+                    },
+                    {
+                      "k": "is_template",
+                      "v": false
+                    },
+                    {
+                      "k": "issue_comment_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/issues/comments{/number}"
+                    },
+                    {
+                      "k": "issue_events_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/issues/events{/number}"
+                    },
+                    {
+                      "k": "issues_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/issues{/number}"
+                    },
+                    {
+                      "k": "keys_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/keys{/key_id}"
+                    },
+                    {
+                      "k": "labels_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/labels{/name}"
+                    },
+                    {
+                      "k": "language",
+                      "v": "JavaScript"
+                    },
+                    {
+                      "k": "languages_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/languages"
+                    },
+                    {
+                      "k": "license",
+                      "v": null
+                    },
+                    {
+                      "k": "merges_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/merges"
+                    },
+                    {
+                      "k": "milestones_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/milestones{/number}"
+                    },
+                    {
+                      "k": "mirror_url",
+                      "v": null
+                    },
+                    {
+                      "k": "name",
+                      "v": "demo"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "R_kgDOJ_gmQg"
+                    },
+                    {
+                      "k": "notifications_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/notifications{?since,all,participating}"
+                    },
+                    {
+                      "k": "open_issues",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "open_issues_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "owner",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "avatar_url",
+                            "v": "https://avatars.githubusercontent.com/u/139228547?v=4"
+                          },
+                          {
+                            "k": "events_url",
+                            "v": "https://api.github.com/users/Kanishka1425/events{/privacy}"
+                          },
+                          {
+                            "k": "followers_url",
+                            "v": "https://api.github.com/users/Kanishka1425/followers"
+                          },
+                          {
+                            "k": "following_url",
+                            "v": "https://api.github.com/users/Kanishka1425/following{/other_user}"
+                          },
+                          {
+                            "k": "gists_url",
+                            "v": "https://api.github.com/users/Kanishka1425/gists{/gist_id}"
+                          },
+                          {
+                            "k": "gravatar_id",
+                            "v": ""
+                          },
+                          {
+                            "k": "html_url",
+                            "v": "https://github.com/Kanishka1425"
+                          },
+                          {
+                            "k": "id",
+                            "v": 139228547.0
+                          },
+                          {
+                            "k": "login",
+                            "v": "Kanishka1425"
+                          },
+                          {
+                            "k": "node_id",
+                            "v": "U_kgDOCEx1gw"
+                          },
+                          {
+                            "k": "organizations_url",
+                            "v": "https://api.github.com/users/Kanishka1425/orgs"
+                          },
+                          {
+                            "k": "received_events_url",
+                            "v": "https://api.github.com/users/Kanishka1425/received_events"
+                          },
+                          {
+                            "k": "repos_url",
+                            "v": "https://api.github.com/users/Kanishka1425/repos"
+                          },
+                          {
+                            "k": "site_admin",
+                            "v": false
+                          },
+                          {
+                            "k": "starred_url",
+                            "v": "https://api.github.com/users/Kanishka1425/starred{/owner}{/repo}"
+                          },
+                          {
+                            "k": "subscriptions_url",
+                            "v": "https://api.github.com/users/Kanishka1425/subscriptions"
+                          },
+                          {
+                            "k": "type",
+                            "v": "User"
+                          },
+                          {
+                            "k": "url",
+                            "v": "https://api.github.com/users/Kanishka1425"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "private",
+                      "v": false
+                    },
+                    {
+                      "k": "pulls_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/pulls{/number}"
+                    },
+                    {
+                      "k": "pushed_at",
+                      "v": "2023-09-05T18:54:32Z"
+                    },
+                    {
+                      "k": "releases_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/releases{/id}"
+                    },
+                    {
+                      "k": "size",
+                      "v": 37.0
+                    },
+                    {
+                      "k": "ssh_url",
+                      "v": "git@github.com:Kanishka1425/demo.git"
+                    },
+                    {
+                      "k": "stargazers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/stargazers"
+                    },
+                    {
+                      "k": "statuses_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/statuses/{sha}"
+                    },
+                    {
+                      "k": "subscribers_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/subscribers"
+                    },
+                    {
+                      "k": "subscription_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/subscription"
+                    },
+                    {
+                      "k": "svn_url",
+                      "v": "https://github.com/Kanishka1425/demo"
+                    },
+                    {
+                      "k": "tags_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/tags"
+                    },
+                    {
+                      "k": "teams_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/teams"
+                    },
+                    {
+                      "k": "topics",
+                      "v": {
+                        "t": 1
+                      }
+                    },
+                    {
+                      "k": "trees_url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo/git/trees{/sha}"
+                    },
+                    {
+                      "k": "updated_at",
+                      "v": "2023-09-05T18:35:54Z"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/repos/Kanishka1425/demo"
+                    },
+                    {
+                      "k": "visibility",
+                      "v": "public"
+                    },
+                    {
+                      "k": "watchers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "watchers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "web_commit_signoff_required",
+                      "v": false
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "sender",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "avatar_url",
+                      "v": "https://avatars.githubusercontent.com/u/139228547?v=4"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/users/Kanishka1425/events{/privacy}"
+                    },
+                    {
+                      "k": "followers_url",
+                      "v": "https://api.github.com/users/Kanishka1425/followers"
+                    },
+                    {
+                      "k": "following_url",
+                      "v": "https://api.github.com/users/Kanishka1425/following{/other_user}"
+                    },
+                    {
+                      "k": "gists_url",
+                      "v": "https://api.github.com/users/Kanishka1425/gists{/gist_id}"
+                    },
+                    {
+                      "k": "gravatar_id",
+                      "v": ""
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/Kanishka1425"
+                    },
+                    {
+                      "k": "id",
+                      "v": 139228547.0
+                    },
+                    {
+                      "k": "login",
+                      "v": "Kanishka1425"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "U_kgDOCEx1gw"
+                    },
+                    {
+                      "k": "organizations_url",
+                      "v": "https://api.github.com/users/Kanishka1425/orgs"
+                    },
+                    {
+                      "k": "received_events_url",
+                      "v": "https://api.github.com/users/Kanishka1425/received_events"
+                    },
+                    {
+                      "k": "repos_url",
+                      "v": "https://api.github.com/users/Kanishka1425/repos"
+                    },
+                    {
+                      "k": "site_admin",
+                      "v": false
+                    },
+                    {
+                      "k": "starred_url",
+                      "v": "https://api.github.com/users/Kanishka1425/starred{/owner}{/repo}"
+                    },
+                    {
+                      "k": "subscriptions_url",
+                      "v": "https://api.github.com/users/Kanishka1425/subscriptions"
+                    },
+                    {
+                      "k": "type",
+                      "v": "User"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/users/Kanishka1425"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "workflow",
+                "v": ".github/workflows/Checking.yml"
+              }
+            ]
+          }
+        },
+        {
+          "k": "server_url",
+          "v": "https://github.com"
+        },
+        {
+          "k": "api_url",
+          "v": "https://api.github.com"
+        },
+        {
+          "k": "graphql_url",
+          "v": "https://api.github.com/graphql"
+        },
+        {
+          "k": "ref_name",
+          "v": "main"
+        },
+        {
+          "k": "ref_protected",
+          "v": false
+        },
+        {
+          "k": "ref_type",
+          "v": "branch"
+        },
+        {
+          "k": "secret_source",
+          "v": "Actions"
+        },
+        {
+          "k": "workflow_ref",
+          "v": "Kanishka1425/demo/.github/workflows/Checking.yml@refs/heads/main"
+        },
+        {
+          "k": "workflow_sha",
+          "v": "af0c9e8ee8213bd9ece446db596b53abb5673f7a"
+        }
+      ]
+    },
+    "vars": {
+      "t": 2
+    },
+    "run-feature-flags": {
+      "t": 2,
+      "d": [
+        {
+          "k": "actions_stream_logs_via_results_service",
+          "v": false
+        },
+        {
+          "k": "actions_use_results_service",
+          "v": true
+        }
+      ]
+    },
+    "partialrerun": false,
+    "needs": {
+      "t": 2
+    },
+    "inputs": {
+      "t": 2,
+      "d": [
+        {
+          "k": "first_number",
+          "v": "10"
+        },
+        {
+          "k": "second_number",
+          "v": "5"
+        }
+      ]
+    },
+    "matrix": null,
+    "strategy": {
+      "t": 2,
+      "d": [
+        {
+          "k": "fail-fast",
+          "v": true
+        },
+        {
+          "k": "job-index",
+          "v": 0.0
+        },
+        {
+          "k": "job-total",
+          "v": 1.0
+        },
+        {
+          "k": "max-parallel",
+          "v": 1.0
+        }
+      ]
+    }
+  }
+}
+[2023-09-05 18:55:21Z INFO JobRunner] Job ID ca395085-040a-526b-2ce8-bdc85f692774
+[2023-09-05 18:55:21Z INFO JobRunner] Creating job server with URL: https://pipelines.actions.githubusercontent.com/1z6R8PTYVkAFJWRv5zSCddtVuwFQqcFGlxttQVRYFazaAZza9T/
+[2023-09-05 18:55:21Z INFO ConfigurationStore] currentAssemblyLocation: C:\Data\demo\bin\Runner.Worker.dll
+[2023-09-05 18:55:21Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:55:21Z INFO ConfigurationStore] binPath: C:\Data\demo\bin
+[2023-09-05 18:55:21Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:55:21Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:55:21Z INFO ConfigurationStore] RootFolder: C:\Data\demo
+[2023-09-05 18:55:21Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:55:21Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:55:21Z INFO HostContext] Well known config file 'Runner': 'C:\Data\demo\.runner'
+[2023-09-05 18:55:21Z INFO ConfigurationStore] ConfigFilePath: C:\Data\demo\.runner
+[2023-09-05 18:55:21Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:55:21Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:55:21Z INFO HostContext] Well known config file 'Credentials': 'C:\Data\demo\.credentials'
+[2023-09-05 18:55:21Z INFO ConfigurationStore] CredFilePath: C:\Data\demo\.credentials
+[2023-09-05 18:55:21Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:55:21Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:55:21Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Data\demo\.credentials_migrated'
+[2023-09-05 18:55:21Z INFO ConfigurationStore] MigratedCredFilePath: C:\Data\demo\.credentials_migrated
+[2023-09-05 18:55:21Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:55:21Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:55:21Z INFO HostContext] Well known config file 'Service': 'C:\Data\demo\.service'
+[2023-09-05 18:55:21Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Data\demo\.service
+[2023-09-05 18:55:21Z INFO ConfigurationStore] Read setting file: 291 chars
+[2023-09-05 18:55:21Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-09-05 18:55:22Z INFO Worker] Listening for cancel message from the channel.
+[2023-09-05 18:55:22Z INFO Worker] Waiting for the job to complete or for a cancel message from the channel.
+[2023-09-05 18:55:23Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-09-05 18:55:23Z INFO JobServer] Creating websocket client ...wss://pipelines.actions.githubusercontent.com/1z6R8PTYVkAFJWRv5zSCddtVuwFQqcFGlxttQVRYFazaAZza9T/00000000-0000-0000-0000-000000000000/_apis/distributedtask/hubs/Actions/plans/79307022-c6bc-4dd3-8868-cf827eec78e5/timelines/79307022-c6bc-4dd3-8868-cf827eec78e5/records/ca395085-040a-526b-2ce8-bdc85f692774/feedstream?api-version=6.0-preview
+[2023-09-05 18:55:23Z INFO JobServer] Attempting to start websocket client with delay 00:00:00.
+[2023-09-05 18:55:23Z INFO JobServerQueue] Initializing results client
+[2023-09-05 18:55:23Z INFO JobServerQueue] Start process web console line queue.
+[2023-09-05 18:55:23Z INFO JobServerQueue] Start process file upload queue.
+[2023-09-05 18:55:23Z INFO JobServerQueue] Start results file upload queue.
+[2023-09-05 18:55:23Z INFO JobServerQueue] Starting results-based upload queue...
+[2023-09-05 18:55:23Z INFO JobServerQueue] Start process timeline update queue.
+[2023-09-05 18:55:23Z INFO ExecutionContext] Initialize GitHub context
+[2023-09-05 18:55:23Z INFO ExecutionContext] Initialize Env context
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Diag': 'C:\Data\demo\_diag'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Diag': 'C:\Data\demo\_diag'
+[2023-09-05 18:55:23Z INFO JobRunner] Starting the job execution context.
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Work': 'C:\Data\demo\_work'
+[2023-09-05 18:55:23Z INFO JobRunner] Validating directory permissions for: 'C:\Data\demo\_work'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Work': 'C:\Data\demo\_work'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Tools': 'C:\Data\demo\_work\_tool'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Work': 'C:\Data\demo\_work'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Temp': 'C:\Data\demo\_work\_temp'
+[2023-09-05 18:55:23Z INFO JobRunner] Getting job extension.
+[2023-09-05 18:55:23Z INFO JobRunner] Initialize job. Getting all job steps.
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Diag': 'C:\Data\demo\_diag'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Diag': 'C:\Data\demo\_diag'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:55:23Z INFO HostContext] Well known config file 'Credentials': 'C:\Data\demo\.credentials'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:55:23Z INFO HostContext] Well known config file 'SetupInfo': 'C:\Data\demo\.setup_info'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Work': 'C:\Data\demo\_work'
+[2023-09-05 18:55:23Z INFO PipelineDirectoryManager] Loading tracking config if exists: C:\Data\demo\_work\_PipelineMapping\Kanishka1425/demo\PipelineFolder.json
+[2023-09-05 18:55:23Z INFO PipelineDirectoryManager] Updating job run properties.
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Work': 'C:\Data\demo\_work'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Work': 'C:\Data\demo\_work'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Work': 'C:\Data\demo\_work'
+[2023-09-05 18:55:23Z INFO JobExtension] Downloading actions
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Work': 'C:\Data\demo\_work'
+[2023-09-05 18:55:23Z INFO HostContext] Well known directory 'Actions': 'C:\Data\demo\_work\_actions'
+[2023-09-05 18:55:24Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:55:24Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:55:24Z INFO HostContext] Well known directory 'Work': 'C:\Data\demo\_work'
+[2023-09-05 18:55:24Z INFO HostContext] Well known directory 'Actions': 'C:\Data\demo\_work\_actions'
+[2023-09-05 18:55:24Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:55:24Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:55:24Z INFO HostContext] Well known directory 'Work': 'C:\Data\demo\_work'
+[2023-09-05 18:55:24Z INFO HostContext] Well known directory 'Actions': 'C:\Data\demo\_work\_actions'
+[2023-09-05 18:55:24Z INFO ActionManager] Save archive 'https://api.github.com/repos/Kanishka1425/demo/zipball/af0c9e8ee8213bd9ece446db596b53abb5673f7a' into C:\Data\demo\_work\_actions\_temp_31ff1f84-3eb7-4d4d-a566-f6b490d9b8b5\71fcc7ec-60d3-48f6-a897-9e20517b0449.zip.
+[2023-09-05 18:55:24Z INFO JobServer] Successfully started websocket client.
+[2023-09-05 18:55:24Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5e6bbea1-ea1b-4d80-8e33-8d1ee5fad7be', success rate: 1/1.
+[2023-09-05 18:55:25Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5e6bbea1-ea1b-4d80-8e33-8d1ee5fad7be', success rate: 1/1.
+[2023-09-05 18:55:27Z INFO JobServerQueue] Job timeline record has been updated for the first time.
+[2023-09-05 18:56:27Z INFO JobServerQueue] Stop aggressive process web console line queue.
+[2023-09-05 18:57:15Z INFO ActionManager] Finished getting action repository.
+[2023-09-05 18:57:20Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:57:20Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:57:20Z INFO HostContext] Well known directory 'Work': 'C:\Data\demo\_work'
+[2023-09-05 18:57:20Z INFO HostContext] Well known directory 'Actions': 'C:\Data\demo\_work\_actions'
+[2023-09-05 18:57:20Z INFO ActionManifestManager] Load schema file with definitions: [
+  "null",
+  "boolean",
+  "number",
+  "string",
+  "sequence",
+  "mapping",
+  "any",
+  "action-root",
+  "inputs",
+  "input",
+  "outputs",
+  "output-definition",
+  "runs",
+  "container-runs",
+  "container-runs-args",
+  "container-runs-env",
+  "node-runs",
+  "plugin-runs",
+  "composite-runs",
+  "composite-steps",
+  "composite-step",
+  "run-step",
+  "uses-step",
+  "container-runs-context",
+  "output-value",
+  "input-default-context",
+  "non-empty-string",
+  "string-steps-context",
+  "boolean-steps-context",
+  "step-env",
+  "step-if",
+  "step-with"
+]
+[2023-09-05 18:57:20Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:57:20Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:57:20Z INFO HostContext] Well known directory 'Work': 'C:\Data\demo\_work'
+[2023-09-05 18:57:20Z INFO HostContext] Well known directory 'Actions': 'C:\Data\demo\_work\_actions'
+[2023-09-05 18:57:20Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "dividing two numbers",
+  "description": "using mode operation",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 7,
+          "lit": "first_number"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 7,
+          "lit": "second_number"
+        },
+        "value": ""
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "composite",
+    "hasPre": false,
+    "hasPost": false,
+    "preSteps": [],
+    "steps": [
+      {
+        "type": "action",
+        "reference": {
+          "type": "script"
+        },
+        "displayNameToken": {
+          "type": 0,
+          "file": 2,
+          "line": 16,
+          "col": 15,
+          "lit": "divide two number"
+        },
+        "contextName": "__run",
+        "inputs": {
+          "type": 2,
+          "map": [
+            {
+              "key": "script",
+              "value": {
+                "type": 3,
+                "file": 2,
+                "line": 17,
+                "col": 14,
+                "expr": "format('if [[ \"{0}\" =~ ^[0-9]+$ && \"{1}\" =~ ^[0-9]+$ ]];then\nif [[ \"{2}\" || \"{3}\" != \"0\" ]]; then\n\nif [[ $(( {4} % {5} )) -eq 0 ]]; \nthen\n echo \"number is completely divisible\"\nelse \n echo \"it is not completely divisible\" \nfi\nelse\n echo  \"please add another number rather than zero\"\nfi\nelse\n echo \"please enter positive integer value \"\nfi\n', inputs.first_number, inputs.second_number, inputs.second_number, inputs.first_number, inputs.first_number, inputs.second_number)"
+              }
+            },
+            {
+              "key": "shell",
+              "value": {
+                "type": 0,
+                "file": 2,
+                "line": 34,
+                "col": 16,
+                "lit": "bash"
+              }
+            }
+          ]
+        },
+        "condition": "success()"
+      }
+    ],
+    "postSteps": [],
+    "outputs": null,
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2023-09-05 18:57:20Z INFO ActionManager] Loading Composite steps
+[2023-09-05 18:57:20Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:57:20Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:57:20Z INFO HostContext] Well known directory 'Work': 'C:\Data\demo\_work'
+[2023-09-05 18:57:20Z INFO HostContext] Well known directory 'Actions': 'C:\Data\demo\_work\_actions'
+[2023-09-05 18:57:20Z INFO ActionManager] Load action that reference repository from 'C:\Data\demo\_work\_actions\Kanishka1425\Demo\main\.github/actions/divide'
+[2023-09-05 18:57:20Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:57:20Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:57:20Z INFO HostContext] Well known directory 'Work': 'C:\Data\demo\_work'
+[2023-09-05 18:57:20Z INFO HostContext] Well known directory 'Actions': 'C:\Data\demo\_work\_actions'
+[2023-09-05 18:57:20Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "dividing two numbers",
+  "description": "using mode operation",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 7,
+          "lit": "first_number"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 7,
+          "lit": "second_number"
+        },
+        "value": ""
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "composite",
+    "hasPre": false,
+    "hasPost": false,
+    "preSteps": [],
+    "steps": [
+      {
+        "type": "action",
+        "reference": {
+          "type": "script"
+        },
+        "displayNameToken": {
+          "type": 0,
+          "file": 2,
+          "line": 16,
+          "col": 15,
+          "lit": "divide two number"
+        },
+        "contextName": "__run",
+        "inputs": {
+          "type": 2,
+          "map": [
+            {
+              "key": "script",
+              "value": {
+                "type": 3,
+                "file": 2,
+                "line": 17,
+                "col": 14,
+                "expr": "format('if [[ \"{0}\" =~ ^[0-9]+$ && \"{1}\" =~ ^[0-9]+$ ]];then\nif [[ \"{2}\" || \"{3}\" != \"0\" ]]; then\n\nif [[ $(( {4} % {5} )) -eq 0 ]]; \nthen\n echo \"number is completely divisible\"\nelse \n echo \"it is not completely divisible\" \nfi\nelse\n echo  \"please add another number rather than zero\"\nfi\nelse\n echo \"please enter positive integer value \"\nfi\n', inputs.first_number, inputs.second_number, inputs.second_number, inputs.first_number, inputs.first_number, inputs.second_number)"
+              }
+            },
+            {
+              "key": "shell",
+              "value": {
+                "type": 0,
+                "file": 2,
+                "line": 34,
+                "col": 16,
+                "lit": "bash"
+              }
+            }
+          ]
+        },
+        "condition": "success()"
+      }
+    ],
+    "postSteps": [],
+    "outputs": null,
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2023-09-05 18:57:20Z INFO ActionManager] Load 1 action steps.
+[2023-09-05 18:57:20Z INFO ActionManager] Load: 0 number of outputs
+[2023-09-05 18:57:20Z INFO ActionManager] Details: null
+[2023-09-05 18:57:20Z INFO JobExtension] Adding .
+[2023-09-05 18:57:20Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:57:20Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:57:20Z INFO HostContext] Well known directory 'Diag': 'C:\Data\demo\_diag'
+[2023-09-05 18:57:20Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:57:20Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:57:20Z INFO HostContext] Well known directory 'Diag': 'C:\Data\demo\_diag'
+[2023-09-05 18:57:20Z INFO JobExtension] Total accessible running process: 329.
+[2023-09-05 18:57:20Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:57:20Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:57:20Z INFO HostContext] Well known directory 'Work': 'C:\Data\demo\_work'
+[2023-09-05 18:57:20Z INFO JobExtension] Start checking server connectivity.
+[2023-09-05 18:57:20Z INFO JobExtension] Check server connectivity for https://acghubeus0.actions.githubusercontent.com/_apis/health.
+[2023-09-05 18:57:20Z INFO JobExtension] Check server connectivity for https://actions-results-receiver-production.githubapp.com/health.
+[2023-09-05 18:57:20Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "setup_job",
+  "type": "runner",
+  "stage": "Pre",
+  "stepId": "5e6bbea1-ea1b-4d80-8e33-8d1ee5fad7be",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 118,
+  "startTime": "2023-09-05T18:55:23.7657772Z",
+  "finishTime": "2023-09-05T18:57:20.9539101Z"
+}.
+[2023-09-05 18:57:20Z INFO JobRunner] Total job steps: 1.
+[2023-09-05 18:57:20Z INFO JobRunner] Run all job steps.
+[2023-09-05 18:57:21Z INFO StepsRunner] Processing step: DisplayName='check it is completely divisble or not'
+[2023-09-05 18:57:21Z INFO StepsRunner] Evaluating: success()
+[2023-09-05 18:57:21Z INFO JobServerQueue] Got a step log file to send to results service.
+[2023-09-05 18:57:21Z INFO StepsRunner] Result: true
+[2023-09-05 18:57:21Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\Data\demo\_diag\blocks\79307022-c6bc-4dd3-8868-cf827eec78e5_5e6bbea1-ea1b-4d80-8e33-8d1ee5fad7be.1
+[2023-09-05 18:57:21Z INFO StepsRunner] Starting the step.
+[2023-09-05 18:57:21Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:57:21Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:57:21Z INFO HostContext] Well known directory 'Work': 'C:\Data\demo\_work'
+[2023-09-05 18:57:21Z INFO StepsRunner] Which: 'chcp'
+[2023-09-05 18:57:21Z INFO StepsRunner] Location: 'C:\windows\system32\chcp.COM'
+[2023-09-05 18:57:21Z INFO ProcessInvokerWrapper] Starting process:
+[2023-09-05 18:57:21Z INFO ProcessInvokerWrapper]   File name: 'C:\windows\system32\chcp.COM'
+[2023-09-05 18:57:21Z INFO ProcessInvokerWrapper]   Arguments: '65001'
+[2023-09-05 18:57:21Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Data\demo\_work'
+[2023-09-05 18:57:21Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-09-05 18:57:21Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-09-05 18:57:21Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-09-05 18:57:21Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-09-05 18:57:21Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2023-09-05 18:57:21Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-09-05 18:57:21Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-09-05 18:57:21Z INFO JobServer] Caught exception during append web console line to websocket, let's fallback to sending via non-websocket call (total calls: 3, failed calls: 1, websocket state: Open).
+[2023-09-05 18:57:21Z INFO JobServer] Websocket is not open, let's attempt to connect back again with random backoff 00:00:00.3980000 ms (total calls: 3, failed calls: 1).
+[2023-09-05 18:57:21Z INFO JobServer] Creating websocket client ...wss://pipelines.actions.githubusercontent.com/1z6R8PTYVkAFJWRv5zSCddtVuwFQqcFGlxttQVRYFazaAZza9T/00000000-0000-0000-0000-000000000000/_apis/distributedtask/hubs/Actions/plans/79307022-c6bc-4dd3-8868-cf827eec78e5/timelines/79307022-c6bc-4dd3-8868-cf827eec78e5/records/ca395085-040a-526b-2ce8-bdc85f692774/feedstream?api-version=6.0-preview
+[2023-09-05 18:57:21Z INFO JobServer] Attempting to start websocket client with delay 00:00:00.3980000.
+[2023-09-05 18:57:21Z INFO ProcessInvokerWrapper] Process started with process id 16360, waiting for process exit.
+[2023-09-05 18:57:21Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-09-05 18:57:21Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-09-05 18:57:21Z INFO ProcessInvokerWrapper] Finished process 16360 with exit code 0, and elapsed time 00:00:00.1956825.
+[2023-09-05 18:57:21Z INFO StepsRunner] Successfully returned to code page 65001 (UTF8)
+[2023-09-05 18:57:21Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:57:21Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:57:21Z INFO HostContext] Well known directory 'Work': 'C:\Data\demo\_work'
+[2023-09-05 18:57:21Z INFO HostContext] Well known directory 'Actions': 'C:\Data\demo\_work\_actions'
+[2023-09-05 18:57:21Z INFO ActionManager] Load action that reference repository from 'C:\Data\demo\_work\_actions\Kanishka1425\Demo\main\.github/actions/divide'
+[2023-09-05 18:57:21Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:57:21Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:57:21Z INFO HostContext] Well known directory 'Work': 'C:\Data\demo\_work'
+[2023-09-05 18:57:21Z INFO HostContext] Well known directory 'Actions': 'C:\Data\demo\_work\_actions'
+[2023-09-05 18:57:21Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "dividing two numbers",
+  "description": "using mode operation",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 7,
+          "lit": "first_number"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 7,
+          "lit": "second_number"
+        },
+        "value": ""
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "composite",
+    "hasPre": false,
+    "hasPost": false,
+    "preSteps": [],
+    "steps": [
+      {
+        "type": "action",
+        "reference": {
+          "type": "script"
+        },
+        "displayNameToken": {
+          "type": 0,
+          "file": 2,
+          "line": 16,
+          "col": 15,
+          "lit": "divide two number"
+        },
+        "contextName": "__run",
+        "inputs": {
+          "type": 2,
+          "map": [
+            {
+              "key": "script",
+              "value": {
+                "type": 3,
+                "file": 2,
+                "line": 17,
+                "col": 14,
+                "expr": "format('if [[ \"{0}\" =~ ^[0-9]+$ && \"{1}\" =~ ^[0-9]+$ ]];then\nif [[ \"{2}\" || \"{3}\" != \"0\" ]]; then\n\nif [[ $(( {4} % {5} )) -eq 0 ]]; \nthen\n echo \"number is completely divisible\"\nelse \n echo \"it is not completely divisible\" \nfi\nelse\n echo  \"please add another number rather than zero\"\nfi\nelse\n echo \"please enter positive integer value \"\nfi\n', inputs.first_number, inputs.second_number, inputs.second_number, inputs.first_number, inputs.first_number, inputs.second_number)"
+              }
+            },
+            {
+              "key": "shell",
+              "value": {
+                "type": 0,
+                "file": 2,
+                "line": 34,
+                "col": 16,
+                "lit": "bash"
+              }
+            }
+          ]
+        },
+        "condition": "success()"
+      }
+    ],
+    "postSteps": [],
+    "outputs": null,
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2023-09-05 18:57:21Z INFO ActionManager] Load 1 action steps.
+[2023-09-05 18:57:21Z INFO ActionManager] Load: 0 number of outputs
+[2023-09-05 18:57:21Z INFO ActionManager] Details: null
+[2023-09-05 18:57:21Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:57:21Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:57:21Z INFO HostContext] Well known directory 'Work': 'C:\Data\demo\_work'
+[2023-09-05 18:57:21Z INFO HostContext] Well known directory 'Temp': 'C:\Data\demo\_work\_temp'
+[2023-09-05 18:57:21Z INFO ExecutionContext] Write event payload to C:\Data\demo\_work\_temp\_github_workflow\event.json
+[2023-09-05 18:57:21Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:57:21Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:57:21Z INFO HostContext] Well known directory 'Work': 'C:\Data\demo\_work'
+[2023-09-05 18:57:21Z INFO HostContext] Well known directory 'Temp': 'C:\Data\demo\_work\_temp'
+[2023-09-05 18:57:21Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2023-09-05 18:57:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathFileCommand, Runner.Worker
+[2023-09-05 18:57:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvFileCommand, Runner.Worker
+[2023-09-05 18:57:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.CreateStepSummaryCommand, Runner.Worker
+[2023-09-05 18:57:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SaveStateFileCommand, Runner.Worker
+[2023-09-05 18:57:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetOutputFileCommand, Runner.Worker
+[2023-09-05 18:57:21Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2023-09-05 18:57:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.InternalPluginSetRepoPathCommandExtension, Runner.Worker
+[2023-09-05 18:57:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvCommandExtension, Runner.Worker
+[2023-09-05 18:57:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetOutputCommandExtension, Runner.Worker
+[2023-09-05 18:57:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SaveStateCommandExtension, Runner.Worker
+[2023-09-05 18:57:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathCommandExtension, Runner.Worker
+[2023-09-05 18:57:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMaskCommandExtension, Runner.Worker
+[2023-09-05 18:57:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMatcherCommandExtension, Runner.Worker
+[2023-09-05 18:57:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.RemoveMatcherCommandExtension, Runner.Worker
+[2023-09-05 18:57:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.WarningCommandExtension, Runner.Worker
+[2023-09-05 18:57:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.ErrorCommandExtension, Runner.Worker
+[2023-09-05 18:57:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.NoticeCommandExtension, Runner.Worker
+[2023-09-05 18:57:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.DebugCommandExtension, Runner.Worker
+[2023-09-05 18:57:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.GroupCommandExtension, Runner.Worker
+[2023-09-05 18:57:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EndGroupCommandExtension, Runner.Worker
+[2023-09-05 18:57:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EchoCommandExtension, Runner.Worker
+[2023-09-05 18:57:21Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2023-09-05 18:57:21Z INFO ActionCommandManager] Register action command extension for command set-env
+[2023-09-05 18:57:21Z INFO ActionCommandManager] Register action command extension for command set-output
+[2023-09-05 18:57:21Z INFO ActionCommandManager] Register action command extension for command save-state
+[2023-09-05 18:57:21Z INFO ActionCommandManager] Register action command extension for command add-path
+[2023-09-05 18:57:21Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2023-09-05 18:57:21Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2023-09-05 18:57:21Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2023-09-05 18:57:21Z INFO ActionCommandManager] Register action command extension for command warning
+[2023-09-05 18:57:21Z INFO ActionCommandManager] Register action command extension for command error
+[2023-09-05 18:57:21Z INFO ActionCommandManager] Register action command extension for command notice
+[2023-09-05 18:57:21Z INFO ActionCommandManager] Register action command extension for command debug
+[2023-09-05 18:57:21Z INFO ActionCommandManager] Register action command extension for command group
+[2023-09-05 18:57:21Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2023-09-05 18:57:21Z INFO ActionCommandManager] Register action command extension for command echo
+[2023-09-05 18:57:21Z INFO CompositeActionHandler] Processing embedded step: DisplayName='run'
+[2023-09-05 18:57:21Z INFO CompositeActionHandler] Initialize Env context for embedded step
+[2023-09-05 18:57:21Z INFO CompositeActionHandler] Evaluating: success()
+[2023-09-05 18:57:21Z INFO CompositeActionHandler] Result: true
+[2023-09-05 18:57:21Z INFO CompositeActionHandler] Starting: run
+[2023-09-05 18:57:21Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:57:21Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:57:21Z INFO HostContext] Well known directory 'Work': 'C:\Data\demo\_work'
+[2023-09-05 18:57:21Z INFO CompositeActionHandler] Which: 'chcp'
+[2023-09-05 18:57:21Z INFO CompositeActionHandler] Location: 'C:\windows\system32\chcp.COM'
+[2023-09-05 18:57:21Z INFO ProcessInvokerWrapper] Starting process:
+[2023-09-05 18:57:21Z INFO ProcessInvokerWrapper]   File name: 'C:\windows\system32\chcp.COM'
+[2023-09-05 18:57:21Z INFO ProcessInvokerWrapper]   Arguments: '65001'
+[2023-09-05 18:57:21Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Data\demo\_work'
+[2023-09-05 18:57:21Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-09-05 18:57:21Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-09-05 18:57:21Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-09-05 18:57:21Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-09-05 18:57:21Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2023-09-05 18:57:21Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-09-05 18:57:21Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-09-05 18:57:21Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5e6bbea1-ea1b-4d80-8e33-8d1ee5fad7be', success rate: 1/1.
+[2023-09-05 18:57:21Z INFO ProcessInvokerWrapper] Process started with process id 19252, waiting for process exit.
+[2023-09-05 18:57:21Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-09-05 18:57:21Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-09-05 18:57:21Z INFO ProcessInvokerWrapper] Finished process 19252 with exit code 0, and elapsed time 00:00:00.1682534.
+[2023-09-05 18:57:21Z INFO CompositeActionHandler] Successfully returned to code page 65001 (UTF8)
+[2023-09-05 18:57:21Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:57:21Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:57:21Z INFO HostContext] Well known directory 'Work': 'C:\Data\demo\_work'
+[2023-09-05 18:57:21Z INFO HostContext] Well known directory 'Temp': 'C:\Data\demo\_work\_temp'
+[2023-09-05 18:57:21Z INFO ExecutionContext] Write event payload to C:\Data\demo\_work\_temp\_github_workflow\event.json
+[2023-09-05 18:57:21Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:57:21Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:57:21Z INFO HostContext] Well known directory 'Work': 'C:\Data\demo\_work'
+[2023-09-05 18:57:21Z INFO HostContext] Well known directory 'Temp': 'C:\Data\demo\_work\_temp'
+[2023-09-05 18:57:21Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2023-09-05 18:57:21Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2023-09-05 18:57:21Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2023-09-05 18:57:21Z INFO ActionCommandManager] Register action command extension for command set-env
+[2023-09-05 18:57:21Z INFO ActionCommandManager] Register action command extension for command set-output
+[2023-09-05 18:57:21Z INFO ActionCommandManager] Register action command extension for command save-state
+[2023-09-05 18:57:21Z INFO ActionCommandManager] Register action command extension for command add-path
+[2023-09-05 18:57:21Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2023-09-05 18:57:21Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2023-09-05 18:57:21Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2023-09-05 18:57:21Z INFO ActionCommandManager] Register action command extension for command warning
+[2023-09-05 18:57:21Z INFO ActionCommandManager] Register action command extension for command error
+[2023-09-05 18:57:21Z INFO ActionCommandManager] Register action command extension for command notice
+[2023-09-05 18:57:21Z INFO ActionCommandManager] Register action command extension for command debug
+[2023-09-05 18:57:21Z INFO ActionCommandManager] Register action command extension for command group
+[2023-09-05 18:57:21Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2023-09-05 18:57:21Z INFO ActionCommandManager] Register action command extension for command echo
+[2023-09-05 18:57:21Z INFO ScriptHandler] Which: 'bash'
+[2023-09-05 18:57:21Z INFO ScriptHandler] bash: command not found. Make sure 'bash' is installed and its location included in the 'Path' environment variable.
+[2023-09-05 18:57:21Z ERR  CompositeActionHandler] Caught exception from step: System.IO.FileNotFoundException: bash: command not found
+File name: 'bash'
+   at GitHub.Runner.Sdk.WhichUtil.Which(String command, Boolean require, ITraceWriter trace, String prependPath)
+   at GitHub.Runner.Worker.Handlers.ScriptHandler.PrintActionDetails(ActionRunStage stage)
+   at GitHub.Runner.Worker.Handlers.Handler.PrepareExecution(ActionRunStage stage)
+   at GitHub.Runner.Worker.ActionRunner.RunAsync()
+   at GitHub.Runner.Worker.Handlers.CompositeActionHandler.RunStepAsync(IStep step)
+[2023-09-05 18:57:21Z INFO CompositeActionHandler] Step result: Failed
+[2023-09-05 18:57:22Z INFO CompositeActionHandler] Update job result with current composite step result 'Failed'.
+[2023-09-05 18:57:22Z INFO CreateStepSummaryCommand] Step Summary file (C:\Data\demo\_work\_temp\_runner_file_commands\step_summary_a6aa1a65-d267-4a09-b291-bc858c2a43a6) is empty; skipping attachment upload
+[2023-09-05 18:57:22Z INFO StepsRunner] Step result: Failed
+[2023-09-05 18:57:22Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "Kanishka1425/Demo/.github/actions/divide",
+  "ref": "main",
+  "type": "composite",
+  "stage": "Main",
+  "stepId": "30c5f498-de7f-5716-77fd-67d11cd7001d",
+  "stepContextName": "__Kanishka1425_Demo",
+  "hasRunsStep": true,
+  "hasUsesStep": false,
+  "hasPreStep": false,
+  "hasPostStep": false,
+  "stepCount": 1,
+  "result": "failed",
+  "errorMessages": [],
+  "executionTimeInSeconds": 2,
+  "startTime": "2023-09-05T18:57:21.0168637Z",
+  "finishTime": "2023-09-05T18:57:22.0664213Z"
+}.
+[2023-09-05 18:57:22Z INFO StepsRunner] Update job result with current step result 'Failed'.
+[2023-09-05 18:57:22Z INFO StepsRunner] Current state: job state = 'Failed'
+[2023-09-05 18:57:22Z INFO JobRunner] Finalize job.
+[2023-09-05 18:57:22Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:57:22Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:57:22Z INFO HostContext] Well known directory 'Diag': 'C:\Data\demo\_diag'
+[2023-09-05 18:57:22Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:57:22Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:57:22Z INFO HostContext] Well known directory 'Diag': 'C:\Data\demo\_diag'
+[2023-09-05 18:57:22Z INFO JobExtension] Initialize Env context
+[2023-09-05 18:57:22Z INFO JobExtension] Initialize steps context
+[2023-09-05 18:57:22Z INFO JobExtension] Total accessible running process: 329.
+[2023-09-05 18:57:22Z INFO JobExtension] Wait for all connectivity checks to finish.
+[2023-09-05 18:57:22Z INFO JobExtension] Connectivity check result: https://acghubeus0.actions.githubusercontent.com/_apis/health: OK
+[2023-09-05 18:57:22Z INFO JobExtension] Connectivity check result: https://actions-results-receiver-production.githubapp.com/health: OK
+[2023-09-05 18:57:22Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "complete_job",
+  "type": "runner",
+  "stage": "Post",
+  "stepId": "6e390695-c7a7-4397-b03e-4888ac184827",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 1,
+  "startTime": "2023-09-05T18:57:22.1244423Z",
+  "finishTime": "2023-09-05T18:57:22.4976996Z"
+}.
+[2023-09-05 18:57:22Z INFO JobRunner] Job result after all job steps finish: Failed
+[2023-09-05 18:57:22Z INFO JobRunner] Completing the job execution context.
+[2023-09-05 18:57:22Z INFO JobRunner] Shutting down the job server queue.
+[2023-09-05 18:57:22Z INFO JobServerQueue] Fire signal to shutdown all queues.
+[2023-09-05 18:57:22Z INFO JobServer] Successfully started websocket client.
+[2023-09-05 18:57:22Z INFO JobServerQueue] Try to append 1 batches web console lines for record '30c5f498-de7f-5716-77fd-67d11cd7001d', success rate: 1/1.
+[2023-09-05 18:57:22Z INFO JobServerQueue] Try to append 1 batches web console lines for record '6e390695-c7a7-4397-b03e-4888ac184827', success rate: 1/1.
+[2023-09-05 18:57:22Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2023-09-05 18:57:25Z INFO JobServerQueue] Tried to upload 1 file(s) to results, success rate: 1/1.
+[2023-09-05 18:57:26Z INFO JobServerQueue] All queue process task stopped.
+[2023-09-05 18:57:26Z INFO JobServerQueue] Web console line queue drained.
+[2023-09-05 18:57:26Z INFO JobServerQueue] Uploading 3 files in one shot.
+[2023-09-05 18:57:28Z INFO JobServerQueue] Try to upload 3 log files or attachments, success rate: 3/3.
+[2023-09-05 18:57:28Z INFO JobServerQueue] File upload queue drained.
+[2023-09-05 18:57:28Z INFO JobServerQueue] Starting results-based upload queue...
+[2023-09-05 18:57:28Z INFO JobServerQueue] Uploading 3 file(s) in one shot through results service.
+[2023-09-05 18:57:28Z INFO JobServerQueue] Got a step log file to send to results service.
+[2023-09-05 18:57:28Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\Data\demo\_diag\blocks\79307022-c6bc-4dd3-8868-cf827eec78e5_30c5f498-de7f-5716-77fd-67d11cd7001d.1
+[2023-09-05 18:57:30Z INFO JobServerQueue] Got a step log file to send to results service.
+[2023-09-05 18:57:30Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\Data\demo\_diag\blocks\79307022-c6bc-4dd3-8868-cf827eec78e5_6e390695-c7a7-4397-b03e-4888ac184827.1
+[2023-09-05 18:57:32Z INFO JobServerQueue] Got a job log file to send to results service.
+[2023-09-05 18:57:32Z INFO JobServerQueue] Starting upload of job log file to results service ResultsLog, C:\Data\demo\_diag\blocks\79307022-c6bc-4dd3-8868-cf827eec78e5_ca395085-040a-526b-2ce8-bdc85f692774.1
+[2023-09-05 18:57:34Z INFO JobServerQueue] Tried to upload 3 file(s) to results, success rate: 3/3.
+[2023-09-05 18:57:34Z INFO JobServerQueue] Results upload queue drained.
+[2023-09-05 18:57:35Z INFO JobServerQueue] Timeline update queue drained.
+[2023-09-05 18:57:35Z INFO JobServerQueue] Disposing job server ...
+[2023-09-05 18:57:35Z INFO JobServerQueue] Disposing results server ...
+[2023-09-05 18:57:35Z INFO JobServerQueue] All queue process tasks have been stopped, and all queues are drained.
+[2023-09-05 18:57:35Z INFO TempDirectoryManager] Cleaning runner temp folder: C:\Data\demo\_work\_temp
+[2023-09-05 18:57:35Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:57:35Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:57:35Z INFO HostContext] Well known directory 'Diag': 'C:\Data\demo\_diag'
+[2023-09-05 18:57:35Z INFO HostContext] Well known config file 'Telemetry': 'C:\Data\demo\_diag\.telemetry'
+[2023-09-05 18:57:35Z INFO JobRunner] Raising job completed event
+[2023-09-05 18:57:36Z INFO Worker] Job completed.

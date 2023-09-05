@@ -1,0 +1,32 @@
+name: The modulas operation
+
+on:
+  workflow_dispatch:
+    inputs:
+      first_number:
+        required: true
+        type: number
+      second_number:
+        required: true
+        type: number  
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: self-hosted
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      #- uses: actions/checkout@v3
+
+      # Runs a single command using the runners shell
+      - name: check it is completely divisble or not
+        uses: Kanishka1425/Demo/.github/actions/divide@main
+        with:
+          first_number: ${{ github.event.inputs.first_number }}
+          second_number: ${{ github.event.inputs.second_number }}
+
+      

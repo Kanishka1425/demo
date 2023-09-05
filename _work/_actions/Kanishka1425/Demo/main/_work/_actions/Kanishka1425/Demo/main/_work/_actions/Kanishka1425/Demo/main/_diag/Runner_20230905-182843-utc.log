@@ -1,0 +1,9 @@
+[2023-09-05 18:28:43Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2023-09-05 18:28:43Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:28:43Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:28:43Z INFO HostContext] Well known config file 'Credentials': 'C:\Data\demo\.credentials'
+[2023-09-05 18:28:43Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:28:43Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:28:43Z INFO HostContext] Well known config file 'Runner': 'C:\Data\demo\.runner'
+[2023-09-05 18:28:43Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2023-09-05 18:28:43Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.19045.

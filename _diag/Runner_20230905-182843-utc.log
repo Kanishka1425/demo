@@ -188,3 +188,40 @@
 [2023-09-05 18:39:26Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 121.
 [2023-09-05 18:39:26Z INFO JobNotification] Entering JobCompleted Notification
 [2023-09-05 18:39:26Z INFO JobNotification] Entering EndMonitor
+[2023-09-05 18:45:52Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Data\demo\.credentials_rsaparams
+[2023-09-05 18:45:52Z INFO MessageListener] Message '3' received from session '8c1cb8b8-90d5-4506-a915-10b60412fc7a'.
+[2023-09-05 18:45:52Z INFO Runner] Received job message of length 19671 from service, with hash '8efc984b6dc83004a473697d6030525492120cc2ae58d6202a014f89fd9173e1'
+[2023-09-05 18:45:52Z INFO JobDispatcher] Job request 122 for plan 1504d25e-c59c-44dc-9c78-1433d748a49c job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2023-09-05 18:45:52Z INFO JobDispatcher] Pull OrchestrationId 1504d25e-c59c-44dc-9c78-1433d748a49c.build.__default from JWT claims
+[2023-09-05 18:45:52Z INFO JobDispatcher] Job request ca395085-040a-526b-2ce8-bdc85f692774 processed succeed.
+[2023-09-05 18:45:52Z INFO Terminal] WRITE LINE: 2023-09-05 18:45:52Z: Running job: build
+[2023-09-05 18:45:52Z INFO JobDispatcher] Start renew job request 122 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2023-09-05 18:45:53Z INFO JobDispatcher] Successfully renew job request 122, job is valid till 9/5/2023 6:55:53 PM
+[2023-09-05 18:45:53Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:45:53Z INFO ProcessInvokerWrapper] Starting process:
+[2023-09-05 18:45:53Z INFO ProcessInvokerWrapper]   File name: 'C:\Data\demo\bin\Runner.Worker.exe'
+[2023-09-05 18:45:53Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 1568 1744'
+[2023-09-05 18:45:53Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Data\demo\bin'
+[2023-09-05 18:45:53Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-09-05 18:45:53Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-09-05 18:45:53Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-09-05 18:45:53Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-09-05 18:45:53Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-09-05 18:45:53Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-09-05 18:45:53Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-09-05 18:45:53Z INFO ProcessInvokerWrapper] Process started with process id 13580, waiting for process exit.
+[2023-09-05 18:45:53Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2023-09-05 18:45:53Z INFO ProcessChannel] Sending message of length 19671, with hash '8efc984b6dc83004a473697d6030525492120cc2ae58d6202a014f89fd9173e1'
+[2023-09-05 18:45:53Z INFO JobNotification] Entering JobStarted Notification
+[2023-09-05 18:45:53Z INFO JobNotification] Entering StartMonitor
+[2023-09-05 18:46:54Z INFO JobDispatcher] Successfully renew job request 122, job is valid till 9/5/2023 6:56:54 PM
+[2023-09-05 18:47:34Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-09-05 18:47:34Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-09-05 18:47:34Z INFO ProcessInvokerWrapper] Finished process 13580 with exit code 102, and elapsed time 00:01:41.3815035.
+[2023-09-05 18:47:34Z INFO JobDispatcher] Worker finished for job ca395085-040a-526b-2ce8-bdc85f692774. Code: 102
+[2023-09-05 18:47:34Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Failed
+[2023-09-05 18:47:34Z INFO Terminal] WRITE LINE: 2023-09-05 18:47:34Z: Job build completed with result: Failed
+[2023-09-05 18:47:34Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2023-09-05 18:47:34Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 122.
+[2023-09-05 18:47:34Z INFO JobNotification] Entering JobCompleted Notification
+[2023-09-05 18:47:34Z INFO JobNotification] Entering EndMonitor
