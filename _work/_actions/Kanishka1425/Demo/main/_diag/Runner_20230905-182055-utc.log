@@ -1,0 +1,118 @@
+[2023-09-05 18:20:55Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2023-09-05 18:20:55Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:20:55Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:20:55Z INFO HostContext] Well known config file 'Credentials': 'C:\Data\demo\.credentials'
+[2023-09-05 18:20:55Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:20:55Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:20:55Z INFO HostContext] Well known config file 'Runner': 'C:\Data\demo\.runner'
+[2023-09-05 18:20:55Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2023-09-05 18:20:55Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.19045.
+[2023-09-05 18:20:55Z INFO Listener] Version: 2.308.0
+[2023-09-05 18:20:55Z INFO Listener] Commit: 7f7ff150c6d2ee316c523be6325188853dfae45d
+[2023-09-05 18:20:55Z INFO Listener] Culture: en-US
+[2023-09-05 18:20:55Z INFO Listener] UI Culture: en-US
+[2023-09-05 18:20:55Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:20:55Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:20:55Z INFO Listener] Validating directory permissions for: 'C:\Data\demo'
+[2023-09-05 18:20:55Z INFO CommandLineParser] Parse
+[2023-09-05 18:20:55Z INFO CommandLineParser] Parsing 5 args
+[2023-09-05 18:20:55Z INFO CommandLineParser] parsing argument
+[2023-09-05 18:20:55Z INFO CommandLineParser] HasArgs: False
+[2023-09-05 18:20:55Z INFO CommandLineParser] Adding Command: configure
+[2023-09-05 18:20:55Z INFO CommandLineParser] parsing argument
+[2023-09-05 18:20:55Z INFO CommandLineParser] HasArgs: True
+[2023-09-05 18:20:55Z INFO CommandLineParser] arg: url
+[2023-09-05 18:20:55Z INFO CommandLineParser] parsing argument
+[2023-09-05 18:20:55Z INFO CommandLineParser] HasArgs: True
+[2023-09-05 18:20:55Z INFO CommandLineParser] Adding option 'url': 'https://github.com/Kanishka1425/demo'
+[2023-09-05 18:20:55Z INFO CommandLineParser] parsing argument
+[2023-09-05 18:20:55Z INFO CommandLineParser] HasArgs: True
+[2023-09-05 18:20:55Z INFO CommandLineParser] arg: token
+[2023-09-05 18:20:55Z INFO CommandLineParser] parsing argument
+[2023-09-05 18:20:55Z INFO CommandLineParser] HasArgs: True
+[2023-09-05 18:20:55Z INFO CommandLineParser] Adding option 'token': '***'
+[2023-09-05 18:20:55Z INFO Listener] Arguments parsed
+[2023-09-05 18:20:55Z INFO Runner] ExecuteCommand
+[2023-09-05 18:20:55Z INFO ConfigurationStore] currentAssemblyLocation: C:\Data\demo\bin\Runner.Listener.dll
+[2023-09-05 18:20:55Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:20:55Z INFO ConfigurationStore] binPath: C:\Data\demo\bin
+[2023-09-05 18:20:55Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:20:55Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:20:55Z INFO ConfigurationStore] RootFolder: C:\Data\demo
+[2023-09-05 18:20:55Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:20:55Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:20:55Z INFO HostContext] Well known config file 'Runner': 'C:\Data\demo\.runner'
+[2023-09-05 18:20:55Z INFO ConfigurationStore] ConfigFilePath: C:\Data\demo\.runner
+[2023-09-05 18:20:55Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:20:55Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:20:55Z INFO HostContext] Well known config file 'Credentials': 'C:\Data\demo\.credentials'
+[2023-09-05 18:20:55Z INFO ConfigurationStore] CredFilePath: C:\Data\demo\.credentials
+[2023-09-05 18:20:55Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:20:55Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:20:55Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Data\demo\.credentials_migrated'
+[2023-09-05 18:20:55Z INFO ConfigurationStore] MigratedCredFilePath: C:\Data\demo\.credentials_migrated
+[2023-09-05 18:20:55Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:20:55Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:20:55Z INFO HostContext] Well known config file 'Service': 'C:\Data\demo\.service'
+[2023-09-05 18:20:55Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Data\demo\.service
+[2023-09-05 18:20:55Z INFO CommandSettings] Flag 'help': 'False'
+[2023-09-05 18:20:55Z INFO CommandSettings] Flag 'version': 'False'
+[2023-09-05 18:20:55Z INFO CommandSettings] Flag 'commit': 'False'
+[2023-09-05 18:20:55Z INFO CommandSettings] Flag 'check': 'False'
+[2023-09-05 18:20:55Z INFO CommandSettings] Command 'configure': 'True'
+[2023-09-05 18:20:55Z INFO Terminal] WRITE LINE: 
+[2023-09-05 18:20:55Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2023-09-05 18:20:55Z INFO Terminal] WRITE LINE: |        ____ _ _   _   _       _          _        _   _                      |
+[2023-09-05 18:20:55Z INFO Terminal] WRITE LINE: |       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+[2023-09-05 18:20:55Z INFO Terminal] WRITE LINE: |      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+[2023-09-05 18:20:55Z INFO Terminal] WRITE LINE: |      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+[2023-09-05 18:20:55Z INFO Terminal] WRITE LINE: |       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+[2023-09-05 18:20:55Z INFO Terminal] WRITE LINE: |                                                                              |
+[2023-09-05 18:20:55Z INFO Terminal] WRITE: |                       
+[2023-09-05 18:20:55Z INFO Terminal] WRITE: Self-hosted runner registration
+[2023-09-05 18:20:55Z INFO Terminal] WRITE LINE:                         |
+[2023-09-05 18:20:55Z INFO Terminal] WRITE LINE: |                                                                              |
+[2023-09-05 18:20:55Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2023-09-05 18:20:55Z INFO ConfigurationManager] ConfigureAsync
+[2023-09-05 18:20:55Z INFO CommandSettings] Flag 'generateServiceConfig': 'False'
+[2023-09-05 18:20:55Z INFO ConfigurationStore] IsConfigured()
+[2023-09-05 18:20:55Z INFO ConfigurationStore] IsConfigured: False
+[2023-09-05 18:20:55Z INFO ConfigurationManager] Is configured: False
+[2023-09-05 18:20:55Z INFO CommandSettings] Arg 'url': 'https://github.com/Kanishka1425/demo'
+[2023-09-05 18:20:55Z INFO CommandSettings] Remove url from Arg dictionary.
+[2023-09-05 18:20:55Z INFO CommandSettings] Arg 'token': '***'
+[2023-09-05 18:20:55Z INFO CommandSettings] Remove token from Arg dictionary.
+[2023-09-05 18:20:58Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/actions/runner-registration' (BA50:1790D8:174DA2:18D73F:64F77188)
+[2023-09-05 18:20:58Z INFO ConfigurationManager] Using V2 flow: False
+[2023-09-05 18:20:58Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2023-09-05 18:20:58Z INFO RunnerServer] EstablishVssConnection
+[2023-09-05 18:20:58Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2023-09-05 18:20:58Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-09-05 18:20:58Z INFO RunnerServer] EstablishVssConnection
+[2023-09-05 18:20:58Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-09-05 18:20:58Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-09-05 18:20:58Z INFO RunnerServer] EstablishVssConnection
+[2023-09-05 18:20:58Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-09-05 18:20:58Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-09-05 18:20:58Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-09-05 18:20:59Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-09-05 18:20:59Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-09-05 18:20:59Z INFO Terminal] WRITE LINE: 
+[2023-09-05 18:20:59Z INFO ConfigurationManager] Test Connection complete.
+[2023-09-05 18:20:59Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:20:59Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:20:59Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Data\demo\.credentials_rsaparams'
+[2023-09-05 18:20:59Z INFO RSAEncryptedFileKeyManager] Found existing RSA key parameters file C:\Data\demo\.credentials_rsaparams
+[2023-09-05 18:21:00Z INFO CommandSettings] Arg 'runnergroup': ''
+[2023-09-05 18:21:00Z INFO CommandSettings] Flag 'unattended': 'False'
+[2023-09-05 18:21:00Z INFO PromptManager] ReadValue
+[2023-09-05 18:21:00Z INFO Terminal] WRITE: Enter the name of the runner group to add this runner to: 
+[2023-09-05 18:21:00Z INFO Terminal] WRITE: [press Enter for Default] 
+[2023-09-05 18:21:00Z INFO Terminal] READ LINE
+[2023-09-05 18:21:16Z INFO Terminal] Read value: 'kalra-1'
+[2023-09-05 18:21:16Z INFO Terminal] WRITE LINE: 
+[2023-09-05 18:21:16Z ERR  Runner] GitHub.DistributedTask.WebApi.TaskAgentPoolNotFoundException: Could not find any self-hosted runner group named "kalra-1".
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command)
+   at GitHub.Runner.Listener.Runner.ExecuteCommand(CommandSettings command)
+[2023-09-05 18:21:16Z ERR  Terminal] WRITE ERROR: Could not find any self-hosted runner group named "kalra-1".
+[2023-09-05 18:21:16Z INFO Listener] Runner execution has finished with return code 1

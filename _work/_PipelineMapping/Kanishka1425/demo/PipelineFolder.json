@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "Kanishka1425/demo",
+  "pipelineDirectory": "demo",
+  "workspaceDirectory": "demo\\demo",
+  "repositories": {
+    "Kanishka1425/demo": {
+      "repositoryPath": "demo\\demo",
+      "lastRunOn": "09/06/2023 00:06:54 +05:30"
+    }
+  },
+  "lastRunOn": "09/06/2023 00:08:09 +05:30"
+}

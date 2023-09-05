@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 22,
+  "agentName": "runner1",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelines.actions.githubusercontent.com/1z6R8PTYVkAFJWRv5zSCddtVuwFQqcFGlxttQVRYFazaAZza9T/",
+  "gitHubUrl": "https://github.com/Kanishka1425/demo",
+  "workFolder": "_work"
+}
