@@ -7,3 +7,111 @@
 [2023-09-05 18:28:43Z INFO HostContext] Well known config file 'Runner': 'C:\Data\demo\.runner'
 [2023-09-05 18:28:43Z INFO Listener] Runner is built for Windows (X64) - win-x64.
 [2023-09-05 18:28:43Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.19045.
+[2023-09-05 18:28:43Z INFO Listener] Version: 2.308.0
+[2023-09-05 18:28:43Z INFO Listener] Commit: 7f7ff150c6d2ee316c523be6325188853dfae45d
+[2023-09-05 18:28:43Z INFO Listener] Culture: en-US
+[2023-09-05 18:28:43Z INFO Listener] UI Culture: en-US
+[2023-09-05 18:28:43Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:28:43Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:28:43Z INFO Listener] Validating directory permissions for: 'C:\Data\demo'
+[2023-09-05 18:28:43Z INFO CommandLineParser] Parse
+[2023-09-05 18:28:43Z INFO CommandLineParser] Parsing 1 args
+[2023-09-05 18:28:43Z INFO CommandLineParser] parsing argument
+[2023-09-05 18:28:43Z INFO CommandLineParser] HasArgs: False
+[2023-09-05 18:28:43Z INFO CommandLineParser] Adding Command: run
+[2023-09-05 18:28:43Z INFO Listener] Arguments parsed
+[2023-09-05 18:28:43Z INFO Runner] ExecuteCommand
+[2023-09-05 18:28:43Z INFO ConfigurationStore] currentAssemblyLocation: C:\Data\demo\bin\Runner.Listener.dll
+[2023-09-05 18:28:43Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:28:43Z INFO ConfigurationStore] binPath: C:\Data\demo\bin
+[2023-09-05 18:28:43Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:28:43Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:28:43Z INFO ConfigurationStore] RootFolder: C:\Data\demo
+[2023-09-05 18:28:43Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:28:43Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:28:43Z INFO HostContext] Well known config file 'Runner': 'C:\Data\demo\.runner'
+[2023-09-05 18:28:43Z INFO ConfigurationStore] ConfigFilePath: C:\Data\demo\.runner
+[2023-09-05 18:28:43Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:28:43Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:28:43Z INFO HostContext] Well known config file 'Credentials': 'C:\Data\demo\.credentials'
+[2023-09-05 18:28:43Z INFO ConfigurationStore] CredFilePath: C:\Data\demo\.credentials
+[2023-09-05 18:28:43Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:28:43Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:28:43Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Data\demo\.credentials_migrated'
+[2023-09-05 18:28:43Z INFO ConfigurationStore] MigratedCredFilePath: C:\Data\demo\.credentials_migrated
+[2023-09-05 18:28:43Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:28:43Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:28:43Z INFO HostContext] Well known config file 'Service': 'C:\Data\demo\.service'
+[2023-09-05 18:28:43Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Data\demo\.service
+[2023-09-05 18:28:43Z INFO CommandSettings] Flag 'help': 'False'
+[2023-09-05 18:28:43Z INFO CommandSettings] Flag 'version': 'False'
+[2023-09-05 18:28:43Z INFO CommandSettings] Flag 'commit': 'False'
+[2023-09-05 18:28:43Z INFO CommandSettings] Flag 'check': 'False'
+[2023-09-05 18:28:43Z INFO CommandSettings] Command 'configure': 'False'
+[2023-09-05 18:28:43Z INFO CommandSettings] Command 'remove': 'False'
+[2023-09-05 18:28:43Z INFO CommandSettings] Command 'warmup': 'False'
+[2023-09-05 18:28:43Z INFO ConfigurationManager] LoadSettings
+[2023-09-05 18:28:43Z INFO ConfigurationStore] IsConfigured()
+[2023-09-05 18:28:43Z INFO ConfigurationStore] IsConfigured: True
+[2023-09-05 18:28:43Z INFO ConfigurationManager] Is configured: True
+[2023-09-05 18:28:43Z INFO ConfigurationStore] Read setting file: 291 chars
+[2023-09-05 18:28:43Z INFO ConfigurationManager] Settings Loaded
+[2023-09-05 18:28:43Z INFO ConfigurationStore] IsServiceConfigured()
+[2023-09-05 18:28:43Z INFO ConfigurationStore] IsServiceConfigured: False
+[2023-09-05 18:28:43Z INFO CommandSettings] Command 'run': 'True'
+[2023-09-05 18:28:43Z INFO ConfigurationStore] IsConfigured()
+[2023-09-05 18:28:43Z INFO ConfigurationStore] IsConfigured: True
+[2023-09-05 18:28:43Z INFO ConfigurationManager] Is configured: True
+[2023-09-05 18:28:43Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2023-09-05 18:28:43Z INFO Runner] Set runner startup type - Manual
+[2023-09-05 18:28:43Z INFO CommandSettings] Flag 'once': 'False'
+[2023-09-05 18:28:43Z INFO CommandSettings] Flag 'once': 'False'
+[2023-09-05 18:28:43Z INFO Runner] RunAsync
+[2023-09-05 18:28:43Z INFO ConfigurationManager] LoadSettings
+[2023-09-05 18:28:43Z INFO ConfigurationStore] IsConfigured()
+[2023-09-05 18:28:43Z INFO ConfigurationStore] IsConfigured: True
+[2023-09-05 18:28:43Z INFO ConfigurationManager] Is configured: True
+[2023-09-05 18:28:43Z INFO ConfigurationManager] Settings Loaded
+[2023-09-05 18:28:43Z INFO MessageListener] {
+  "AgentId": 22,
+  "AgentName": "runner1",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelines.actions.githubusercontent.com/1z6R8PTYVkAFJWRv5zSCddtVuwFQqcFGlxttQVRYFazaAZza9T/",
+  "GitHubUrl": "https://github.com/Kanishka1425/demo",
+  "WorkFolder": "_work"
+}
+[2023-09-05 18:28:43Z INFO MessageListener] Loading Credentials
+[2023-09-05 18:28:43Z INFO ConfigurationStore] HasCredentials()
+[2023-09-05 18:28:43Z INFO ConfigurationStore] stored True
+[2023-09-05 18:28:43Z INFO CredentialManager] GetCredentialProvider
+[2023-09-05 18:28:43Z INFO CredentialManager] Creating type OAuth
+[2023-09-05 18:28:43Z INFO CredentialManager] Creating credential type: OAuth
+[2023-09-05 18:28:43Z INFO HostContext] Well known directory 'Bin': 'C:\Data\demo\bin'
+[2023-09-05 18:28:43Z INFO HostContext] Well known directory 'Root': 'C:\Data\demo'
+[2023-09-05 18:28:43Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Data\demo\.credentials_rsaparams'
+[2023-09-05 18:28:43Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Data\demo\.credentials_rsaparams
+[2023-09-05 18:28:43Z INFO MessageListener] Attempt to create session.
+[2023-09-05 18:28:43Z INFO MessageListener] Connecting to the Runner Server...
+[2023-09-05 18:28:43Z INFO RunnerServer] EstablishVssConnection
+[2023-09-05 18:28:43Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2023-09-05 18:28:43Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-09-05 18:28:43Z INFO RunnerServer] EstablishVssConnection
+[2023-09-05 18:28:43Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-09-05 18:28:43Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-09-05 18:28:43Z INFO RunnerServer] EstablishVssConnection
+[2023-09-05 18:28:43Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-09-05 18:28:43Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-09-05 18:28:44Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-09-05 18:28:44Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-09-05 18:28:44Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-09-05 18:28:44Z INFO MessageListener] VssConnection created
+[2023-09-05 18:28:44Z INFO Terminal] WRITE LINE: 
+[2023-09-05 18:28:44Z INFO Terminal] WRITE LINE: 
+[2023-09-05 18:28:45Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Data\demo\.credentials_rsaparams
+[2023-09-05 18:28:45Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Data\demo\.credentials_rsaparams
+[2023-09-05 18:28:46Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-09-05 18:28:46Z INFO MessageListener] Session created.
+[2023-09-05 18:28:46Z INFO Terminal] WRITE LINE: Current runner version: '2.308.0'
+[2023-09-05 18:28:46Z INFO Terminal] WRITE LINE: 2023-09-05 18:28:46Z: Listening for Jobs
+[2023-09-05 18:28:46Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.

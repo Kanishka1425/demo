@@ -31,7 +31,7 @@ runs:
                echo "please enter positive integer value "
               fi
 
-        shell: pwsh 
+        shell: bash
 
       #--url "https://docs.github.com/rest/users/GH_USERNAME" \
       #--header "Accept: application/vnd.github+json" \
